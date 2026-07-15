@@ -1,0 +1,7 @@
+# Shared development boundary for kettle-rb Ruby gems.
+#
+# kettle-rb gems are sibling repositories under this directory. Keep inherited
+# workspace env from pointing their local dependency wiring at structuredmerge/.
+
+[tools]
+ruby = "jruby-10.0.6.0"
